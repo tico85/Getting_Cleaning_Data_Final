@@ -1,0 +1,27 @@
+---
+title: "README"
+output: html_document
+---
+
+## Run Analysis Steps
+The run_analysis script is fairly straightforward.  Overall, the script pulls data from locally-saved files that have been saved from:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+The script then combines data from a few of the files and uses reg expressions to rename the columns to be a bit more descriptive and follow industry standards.  It completes by generating a local file called "WearablesTidyData.txt"
+
+
+## Loading and Combining Data
+The first section of the script loads the primary Training dataset, which contains most of the observations and variables.  It then reads the activity and subject files seperately, transforming them into vectors to be used effectively in the cbind function.
+
+The columnames are set by reading them from the features.txt file found in the source ZIP file and setting them to the data set's final name.
+
+This process is reapeated for the Test data set.  The data of Test and Training are then combined using an rbind function
+
+##Renaming
+The next section loads the columnnames from the original data, and cleans them up using reg expressions.  The meaning of the abbreviations is found in the features_info.txt file found in the source ZIP file.
+
+##Finalize and Print
+The final tidy data set is then created using a ddplyr function from the plyr package, which aggregates the data by subject and activity with the "mean" aggregation function with NA's removed.
+
+Then the file was printed to a local directory to be uploaded into GitHub.

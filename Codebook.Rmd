@@ -1,0 +1,89 @@
+---
+title: "Codebook"
+output: html_document
+---
+##Overview
+This codebook contains the variables, descriptions, units, and manipulations performed on the source data to create the tidy data set "WearablesTidyData" generated from run_analysis.R
+
+## Variable Names, units, and manipulations
+Unit |	Unit | Manipulations
+-----|-------|--------------
+Time.Body.Acceleration.Mean.X|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Acceleration.Mean.Y|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Acceleration.Mean.Z|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Acceleration.StdDev.X|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Acceleration.StdDev.Y|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Acceleration.StdDev.Z|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Gravity.Acceleration.Mean.X|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Gravity.Acceleration.Mean.Y|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Gravity.Acceleration.Mean.Z|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Gravity.Acceleration.StdDev.X|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Gravity.Acceleration.StdDev.Y|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Gravity.Acceleration.StdDev.Z|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Acceleration.Jerk.Mean.X|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Acceleration.Jerk.Mean.Y|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Acceleration.Jerk.Mean.Z|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Acceleration.Jerk.StdDev.X|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Acceleration.Jerk.StdDev.Y|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Acceleration.Jerk.StdDev.Z|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Gyro.Mean.X|rad/seg|Averaged over Activity and Subject
+Time.Body.Gyro.Mean.Y|rad/seg|Averaged over Activity and Subject
+Time.Body.Gyro.Mean.Z|rad/seg|Averaged over Activity and Subject
+Time.Body.Gyro.StdDev.X|rad/seg|Averaged over Activity and Subject
+Time.Body.Gyro.StdDev.Y|rad/seg|Averaged over Activity and Subject
+Time.Body.Gyro.StdDev.Z|rad/seg|Averaged over Activity and Subject
+Time.Body.Gyro.Jerk.Mean.X|rad/seg|Averaged over Activity and Subject
+Time.Body.Gyro.Jerk.Mean.Y|rad/seg|Averaged over Activity and Subject
+Time.Body.Gyro.Jerk.Mean.Z|rad/seg|Averaged over Activity and Subject
+Time.Body.Gyro.Jerk.StdDev.X|rad/seg|Averaged over Activity and Subject
+Time.Body.Gyro.Jerk.StdDev.Y|rad/seg|Averaged over Activity and Subject
+Time.Body.Gyro.Jerk.StdDev.Z|rad/seg|Averaged over Activity and Subject
+Time.Body.Acceleration.Magnitude.Mean|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Acceleration.Magnitude.StdDev|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Gravity.Acceleration.Magnitude.Mean|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Gravity.Acceleration.Magnitude.StdDev|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Acceleration.Jerk.Magnitude.Mean|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Acceleration.Jerk.Magnitude.StdDev|"g's" or earth's gravity|Averaged over Activity and Subject
+Time.Body.Gyro.Magnitude.Mean|rad/seg|Averaged over Activity and Subject
+Time.Body.Gyro.Magnitude.StdDev|rad/seg|Averaged over Activity and Subject
+Time.Body.Gyro.Jerk.Magnitude.Mean|rad/seg|Averaged over Activity and Subject
+Time.Body.Gyro.Jerk.Magnitude.StdDev|rad/seg|Averaged over Activity and Subject
+Freq.Body.Acceleration.Mean.X|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Acceleration.Mean.Y|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Acceleration.Mean.Z|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Acceleration.StdDev.X|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Acceleration.StdDev.Y|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Acceleration.StdDev.Z|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Acceleration.Jerk.Mean.X|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Acceleration.Jerk.Mean.Y|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Acceleration.Jerk.Mean.Z|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Acceleration.Jerk.StdDev.X|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Acceleration.Jerk.StdDev.Y|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Acceleration.Jerk.StdDev.Z|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Gyro.Mean.X|rad/seg|Averaged over Activity and Subject
+Freq.Body.Gyro.Mean.Y|rad/seg|Averaged over Activity and Subject
+Freq.Body.Gyro.Mean.Z|rad/seg|Averaged over Activity and Subject
+Freq.Body.Gyro.StdDev.X|rad/seg|Averaged over Activity and Subject
+Freq.Body.Gyro.StdDev.Y|rad/seg|Averaged over Activity and Subject
+Freq.Body.Gyro.StdDev.Z|rad/seg|Averaged over Activity and Subject
+Freq.Body.Acceleration.Magnitude.Mean|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Acceleration.Magnitude.StdDev|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Acceleration.Jerk.Magnitude.Mean|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Acceleration.Jerk.Magnitude.StdDev|"g's" or earth's gravity|Averaged over Activity and Subject
+Freq.Body.Gyro.Magnitude.Mean|rad/seg|Averaged over Activity and Subject
+Freq.Body.Gyro.Magnitude.StdDev|rad/seg|Averaged over Activity and Subject
+Freq.Body.Gyro.Jerk.Magnitude.Mean|rad/seg|Averaged over Activity and Subject
+Freq.Body.Gyro.Jerk.Magnitude.StdDev|rad/seg|Averaged over Activity and Subject
+ActivityID|NA|NA
+SubjectID|NA|NA
+
+
+##Activity Table Lookup
+Activity ID | Activity Description
+------------|---------------------
+1  | WALKING
+2  | WALKING_UPSTAIRS
+3  | WALKING_DOWNSTAIRS
+4  | SITTING
+5  | STANDING
+6  | LAYING
